@@ -10,19 +10,19 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "debian6-squeeze"
+  config.vm.box = "debsqueeze32"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://www.emken.biz/vagrant-boxes/debsqueeze64.box"
+  config.vm.box_url = "http://mathie-vagrant-boxes.s3.amazonaws.com/debian_squeeze_32.box"
   
   # Loads external bootstrap.sh shell script. Used to simply add Apache.
   config.vm.provision :shell, :path => "bootstrap.sh"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
-  # accessing "localhost:4567" will access port 80 on the guest machine.
-  config.vm.network :forwarded_port, guest: 80, host: 4567
+  # accessing "localhost:4568" will access port 80 on the guest machine.
+  config.vm.network :forwarded_port, guest: 80, host: 4568
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
