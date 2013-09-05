@@ -1,0 +1,10 @@
+Dropbox is working with Vagrant flawlessly thus far! Setting us the Vagrant "Getting Started Guide" that includes 
+Apache for localhost viewing within the browser when viewing '127.0.0.1:4568"
+
+Not only that! While Dropbox handles the syncing of the working files in the cloud, GitHub (or BitBucket if I install it) 
+we now have functioning version control!! So, all this with Vagrant handling the Virtual Machine environment thanks to 
+VirtualBox... I now have a new workflow in place! And it's EPICCCCCCC!!!!!!
+
+I <3 Dropbox + Vagrant + Git
+
+[master branch]
